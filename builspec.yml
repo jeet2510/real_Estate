@@ -12,8 +12,6 @@ phases:
   pre_build:
     commands:
       - composer update  # Changed to 'composer install' instead of 'composer update'
-      - npm install
-      - npm run build
   build:
     commands:
       - echo Build started on `date`
